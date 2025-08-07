@@ -1,0 +1,24 @@
+/* weather_assistant/ui/assets/style.css */
+
+body {
+    background: linear-gradient(45deg, #1C2526, #2A3D62, #1C2526);
+    animation: animateBackground 15s ease-in-out infinite;
+    background-size: 200% 200%;
+}
+@keyframes animateBackground {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+button {
+    background: #00B4D8;
+    transition: all 0.3s ease;
+}
+button:hover {
+    background: #0077B6;
+}
+.output {
+    background: #2C2F33;
+    border-radius: 15px;
+    padding: 15px;
+}
