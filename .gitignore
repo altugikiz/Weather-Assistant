@@ -1,0 +1,64 @@
+# # # Hassas Bilgiler ve Çevre Değişkenleri # # #
+# API anahtarları gibi gizli bilgileri ASLA GÖNDERME!
+.env
+.env.*
+!/.env.example
+
+# # # Sanal Ortam (Virtual Environment) # # #
+# Sanal ortam klasörlerini yoksay
+venv/
+env/
+.venv/
+*/.env
+*/.venv
+*/venv/
+*/env/
+
+# # # Python'a Özgü Dosyalar # # #
+# Python bytecode ve cache klasörleri
+__pycache__/
+*.py[cod]
+*$py.class
+
+# # # IDE ve Editör Konfigürasyonları # # #
+# Visual Studio Code
+.vscode/
+
+# JetBrains (PyCharm, etc.)
+.idea/
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# # # Kurulum ve Bağımlılık Dosyaları # # #
+# Pip tarafından oluşturulan dosyalar
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Paketleme ve dağıtım klasörleri
+dist/
+build/
+*.egg-info/
+*.egg
+
+# # # İşletim Sistemi Dosyaları # # #
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# # # Log Dosyaları # # #
+*.log
+*.log.*
+
+# # # Test Sonuçları ve Raporları # # #
+.pytest_cache/
+htmlcov/
+.coverage
+.tox/
